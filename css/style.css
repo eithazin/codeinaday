@@ -1,0 +1,19 @@
+body {
+background-color: red;
+}
+img{
+  max-width: 100%;
+  max-height: 400px;
+}
+h1{
+  color:purple;
+  text-align: right;
+  background-color: yellow;
+}
+
+/*----- Media Queries: Phone -------*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
